@@ -1,12 +1,10 @@
 package academy.digitallab.store.shopping.entity;
 
-import academy.digitallab.store.shopping.model.Customer;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.Data;
 
 import javax.persistence.*;
 import javax.validation.Valid;
-import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -42,9 +40,6 @@ public class Invoice {
     private List<InvoiceItem> items;
 
     private String state;
-
-    @Transient
-    private Customer customer;
 
     public Invoice(){
         items = new ArrayList<>();
