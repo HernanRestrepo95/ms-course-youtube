@@ -8,7 +8,6 @@ import academy.digitallab.store.shopping.entity.Invoice;
 import academy.digitallab.store.shopping.entity.InvoiceItem;
 import academy.digitallab.store.shopping.model.Customer;
 import academy.digitallab.store.shopping.model.Product;
-import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -16,7 +15,6 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.stream.Collectors;
 
-@Slf4j
 @Service
 public class InvoiceServiceImpl implements InvoiceService {
 
