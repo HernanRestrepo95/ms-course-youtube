@@ -8,9 +8,9 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 
-import com.example.product.repository.ProductRepository;
-import com.example.product.repository.entity.Category;
-import com.example.product.repository.entity.Product;
+import academy.digitallab.store.product.repository.ProductRepository;
+import academy.digitallab.store.product.repository.entity.Category;
+import academy.digitallab.store.product.repository.entity.Product;
 
 @DataJpaTest
 public class ProductRepositoryMockTest {

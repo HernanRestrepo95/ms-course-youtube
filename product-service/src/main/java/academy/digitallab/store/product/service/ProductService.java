@@ -1,9 +1,9 @@
-package com.example.product.service;
+package academy.digitallab.store.product.service;
 
 import java.util.List;
 
-import com.example.product.repository.entity.Category;
-import com.example.product.repository.entity.Product;
+import academy.digitallab.store.product.repository.entity.Category;
+import academy.digitallab.store.product.repository.entity.Product;
 
 public interface ProductService {
 

@@ -1,4 +1,4 @@
-package com.example.product.controller;
+package academy.digitallab.store.product.controller;
 
 import java.util.HashMap;
 import java.util.List;
@@ -22,11 +22,12 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.server.ResponseStatusException;
 
-import com.example.product.repository.entity.Category;
-import com.example.product.repository.entity.Product;
-import com.example.product.service.ProductService;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+
+import academy.digitallab.store.product.repository.entity.Category;
+import academy.digitallab.store.product.repository.entity.Product;
+import academy.digitallab.store.product.service.ProductService;
 
 
 @RestController

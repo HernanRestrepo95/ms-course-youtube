@@ -10,11 +10,11 @@ import org.mockito.Mockito;
 import org.mockito.MockitoAnnotations;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import com.example.product.repository.ProductRepository;
-import com.example.product.repository.entity.Category;
-import com.example.product.repository.entity.Product;
-import com.example.product.service.ProductService;
-import com.example.product.service.ProductServiceImplement;
+import academy.digitallab.store.product.repository.ProductRepository;
+import academy.digitallab.store.product.repository.entity.Category;
+import academy.digitallab.store.product.repository.entity.Product;
+import academy.digitallab.store.product.service.ProductService;
+import academy.digitallab.store.product.service.ProductServiceImplement;
 
 @SpringBootTest
 public class ProductServiceMockTest {

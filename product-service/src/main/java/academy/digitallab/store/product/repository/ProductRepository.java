@@ -1,12 +1,12 @@
-package com.example.product.repository;
+package academy.digitallab.store.product.repository;
 
 import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.example.product.repository.entity.Category;
-import com.example.product.repository.entity.Product;
+import academy.digitallab.store.product.repository.entity.Category;
+import academy.digitallab.store.product.repository.entity.Product;
 
 
 @Repository

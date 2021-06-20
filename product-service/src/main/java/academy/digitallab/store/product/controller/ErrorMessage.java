@@ -1,4 +1,4 @@
-package com.example.product.controller;
+package academy.digitallab.store.product.controller;
 
 import java.util.List;
 import java.util.Map;

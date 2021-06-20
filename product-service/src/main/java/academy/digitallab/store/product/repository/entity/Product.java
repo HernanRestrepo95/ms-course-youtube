@@ -1,4 +1,4 @@
-package com.example.product.repository.entity;
+package academy.digitallab.store.product.repository.entity;
 
 import java.util.Date;
 

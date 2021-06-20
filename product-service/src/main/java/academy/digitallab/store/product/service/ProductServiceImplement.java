@@ -1,14 +1,13 @@
-package com.example.product.service;
+package academy.digitallab.store.product.service;
 
 import java.util.Date;
 import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import com.example.product.repository.ProductRepository;
-import com.example.product.repository.entity.Category;
-import com.example.product.repository.entity.Product;
-
+import academy.digitallab.store.product.repository.ProductRepository;
+import academy.digitallab.store.product.repository.entity.Category;
+import academy.digitallab.store.product.repository.entity.Product;
 import lombok.RequiredArgsConstructor;
 
 @Service
