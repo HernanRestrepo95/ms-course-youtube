@@ -1,6 +1,9 @@
 spring:
   application:
     name: registry-service
+  freemarker:
+    template-loader-path: classpath:/templates/
+    prefer-file-system-access: false
   cloud:
     config:
       uri: http://localhost:8081
