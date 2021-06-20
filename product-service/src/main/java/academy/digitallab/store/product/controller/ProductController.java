@@ -106,7 +106,7 @@ public class ProductController {
 		}
 	}
 	
-	@PutMapping(value = "/{id}/stock")
+	@GetMapping(value = "/{id}/stock")
 	public ResponseEntity<Product> updateStockProduct(@PathVariable("id") Long id, @RequestParam(name = "quantity", required = true) Double quantity){
 
 		Product product2 = productService.updateStock(id, quantity);
