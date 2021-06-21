@@ -1,9 +1,17 @@
 package academy.digitallab.store.shopping.model;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 
+@Builder
 @Data
-public class Customer {
+@AllArgsConstructor
+public class Customer {	
+	
+	public Customer() {
+    }
+    
     private Long id;
 
     private String numberID;
