@@ -34,7 +34,7 @@ dependencies {
 	implementation 'de.codecentric:spring-boot-admin-starter-client:2.2.1'
 
 	implementation 'org.springframework.cloud:spring-cloud-starter-netflix-hystrix'
-	implementation 'org.springframework.cloud:spring-cloud-starter-netflix-hystrix-dashboard'
+	implementation 'org.springframework.cloud:spring-cloud-starter-netflix-hystrix-dashboard:2.2.2.RELEASE'
 
 
 	implementation 'org.springframework.cloud:spring-cloud-starter-sleuth'
