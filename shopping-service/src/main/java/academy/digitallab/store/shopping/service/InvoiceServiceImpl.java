@@ -48,6 +48,9 @@ public class InvoiceServiceImpl implements InvoiceService {
         	productClient.updateStockProduct(invoiceItem.getProductId(), invoiceItem.getQuantity() * -1);
         });
         
+        Customer customer = customerClient.getCustomer(invoice.getCustomerId()).getBody();
+		invoice.setCustomer(customer);
+        
         return invoiceRepository.save(invoice);
     }
 
