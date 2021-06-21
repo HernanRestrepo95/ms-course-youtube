@@ -15,7 +15,12 @@ import java.io.Serializable;
 @Table(name="tbl_customers")
 public class Customer implements Serializable {
 
-    @Id
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	@Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 

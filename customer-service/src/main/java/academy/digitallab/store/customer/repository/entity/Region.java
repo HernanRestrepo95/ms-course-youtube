@@ -10,6 +10,10 @@ import java.io.Serializable;
 @Table(name = "tbl_regions")
 public class Region implements Serializable {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;

@@ -8,8 +8,6 @@ import javax.validation.constraints.Positive;
 
 import academy.digitallab.store.shopping.model.Product;
 
-import java.io.Serializable;
-
 @Entity
 @Data
 @Table(name = "tbl_invoce_items")
