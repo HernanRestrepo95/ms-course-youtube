@@ -6,6 +6,6 @@ spring:
     prefer-file-system-access: false
   cloud:
     config:
-      uri: http://localhost:8081
+      uri: http://config-service:8081
       username: root
       password: s3cr3t

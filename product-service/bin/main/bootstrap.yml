@@ -3,10 +3,10 @@ spring:
     name: product-service
   cloud:
     config:
-      uri: http://localhost:8081
+      uri: http://config-service:8081
       username: root
       password: s3cr3t
   boot:
     admin:
       client:
-        url: http://localhost:8086      
+        url: http://admin-service:8086

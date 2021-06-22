@@ -1,0 +1,54 @@
+version: '3'
+networks:
+  back-tier:
+
+services:
+
+  config-service:
+    image: config-service:latest
+    networks:
+      - back-tier
+    ports:
+      - "8081:8081"
+
+  registry-service:
+    image: registry-service:latest
+    networks:
+      - back-tier
+    ports:
+      - "8099:8099"
+
+  admin-service:
+    image: admin-service:latest
+    networks:
+      - back-tier
+    ports:
+      - "8086:8086"
+
+  customer-service:
+    image: customer-service:latest
+    networks:
+      - back-tier
+    ports:
+      - "8092:8092"
+
+  product-service:
+    image: product-service:latest
+    networks:
+      - back-tier
+    ports:
+      - "8091:8091"
+
+  shopping-service:
+    image: shopping-service:latest
+    networks:
+      - back-tier
+    ports:
+      - "8093:8093"
+
+  gateway-service:
+    image: gateway-service:latest
+    networks:
+      - back-tier
+    ports:
+      - "8080:8080"
