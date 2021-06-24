@@ -7,12 +7,11 @@ import academy.digitallab.store.product.repository.ProductRepository;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
-
+import org.springframework.boot.test.context.SpringBootTest;
 import java.util.Date;
 import java.util.List;
 
-@DataJpaTest
+@SpringBootTest
 public class ProductRepositoryMockTest {
 
     @Autowired
@@ -33,7 +32,5 @@ public class ProductRepositoryMockTest {
         List<Product> founds= productRepository.findByCategory(product01.getCategory());
 
         Assertions.assertThat(founds.size()).isEqualTo(3);
-
-
     }
 }
